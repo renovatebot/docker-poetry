@@ -1,5 +1,6 @@
-FROM renovate/python@sha256:f73ad21f5078b6d31f8b6321d1fe7a98393067405c71fb50f6ea505caf82275a
+FROM renovate/pip@sha256:8b93b1c6af5d3b6c8d1dbf6a4adb5bb0f3c13fd9e2888833aa00a1dfe6767beb
 
 RUN curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 
 ENV PATH="/home/ubuntu/.poetry/bin:$PATH"
+RUN poetry config settings.virtualenvs.create false
