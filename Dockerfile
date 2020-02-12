@@ -1,4 +1,4 @@
-FROM renovate/pip@sha256:b28352f8b7f9e467e36f5d9046f0a08c660bc50cce2b921e90b3b768d396230b
+FROM renovate/pip@sha256:753f4ab74e59fa53a30ef598d7b52134a8ca7b85a3dee9db2e5a1f89bc0e5a6e
 
 ENV HOME=/home/ubuntu
 
